@@ -42,5 +42,7 @@ h3{font-size:25px;}
 #store div:nth-child(2n){margin-left :0; }
 #store div:nth-child(1){margin-bottom:0;}
 
+
+#bigbox{width:100%; height:30px; background-color:#ff1;}
 /*풋터*/
 #low {width:100%; height:150px; background-color:#f11;}
