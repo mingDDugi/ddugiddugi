@@ -1,0 +1,158 @@
+html
+
+<a href="#">링크 태그 - 글이나 이미지를 넣을수도 있음(# 안에 넣는것 http 주소 등 홈페이지 이동 가능 경로 위치 이동)  </a>
+<h1>제목(<h6>이거 까지 있음</h6>)</h1>
+<p>문단</p>
+<br>줄바꿈
+<strong>글씨를 강하게</strong>
+<b>글씨를 찐하게 storong 과 같음</b>
+<em>글씨 기울리기</em>
+<ul>점 목차</ul>
+<ol>순서목차</ol>
+<li>목차내용</li>
+<img src="내가 가지고있는 이미지, 인터넷에 올라와있는것 가져다 쓰기 가능" alt="이미지 설명 액박 or 시각장애" width="숫자px" height="숫자px", "숫자 %">
+
+점프하기 
+
+<a herf="#"> 사용 
+	css 의 아이디 지정으로 맥락 별로 점프할수있음 
+	ex 
+
+    <a herd ="#cat"> </a>          <------- 클릭시 this is cat only 가나오게 됨 
+
+<p>블라브ㅡㄹ라블라블라블라블라ㅣ블
+</p>
+	<p id="cat">
+		this is cat only
+	</p>
+
+테이블 헤드   세로 쓰기   
+
+<table>
+ <thead>
+ 	<tr>
+ 		<th>바지 </th>
+ 		<th>원호형 </th>
+ 		<th>누나</th>
+ 	</tr>
+ </thead>
+ <tbody>
+ 	<tr>
+ 		<td>바지 다리는 4개</td>                     ex   바지          원호형           누나 
+ 		<td>원호형 다리는 2개</td>                  바지 다리는 4개 원호형 다리는 2개  누나 다리는 2개  
+ 		<td>누나다리는 2개</td>                                
+ 		                                                       이런 느낌으로 나온다는거 
+ 	</tr>
+ </tbody>
+ </table>
+
+
+<!-- 주석 타임 -->
+	<!--인간만 볼수있음 브라우저가 인식못함 -->
+	<!-- 쓰는 법은 이와 같음 -->
+
+
+css
+
+
+<style> html head 에 들어가는 것 이 사이에 css 코드를 적음  </style>
+#id 아이디 속성을 변경할떄 쓰는법 단일
+.class 클레스 속성을 변경할떄 쓰는법 그룹 
+
+#id {color:rgb(20, 30, 15);} {중괄호 안에는 css 양식 }
+.class {backgraund-color:rgb(255, 255, 255); width:넓이(숫자)px; height:높이(숫자)px} 
+
+
+color 글 색상 변경
+backgraund-color 글자 배경 색 변경
+font-family :"폰트이름",서브폰트이름;    ex: p {font-family: "Helvetica", sans-serif;}
+font-size : -- px ;  or font-size : 2em ;
+
+                                     ex p  {font-size:12px}본문 크기 12px
+                                        h1 {font-size: em2}제목 크기 24px
+
+text-align 텍스트 정렬                ex p {text-align:center;}
+
+폰트 사이즈 설명
+다양한 단위의 폰트 사이즈가 있다 대부분 px or em 을쓰는대 
+px 같은경우는 말그대로 픽셀 사이즈고 이고 em 제목이 본문에 몇배 인가를 지정해줌
+
+본문 <p>의 폰트 사이즈가 12px 일경우 제목에 해당하는 <h1> 의 폰트사이즈를 2em 으로 지정시 24px 의 사이즈로 표기가 되는것 
+
+
+
+폰트 이름 몇가지 
+monospace
+sans-serif
+Helvetica
+
+font: italic 13px fantasy;
+
+폰트  속성
+
+ 글씨채 font-family: fantasy;
+ 크기   font-size: 13px;
+ 스타일 font-style: italic; 
+ 텍스트 꾸임  text-decoration: underline; (언더라인 )
+ 텍스트 정렬  text-align: center; (가운데 정렬)
+ 줄간격 line-height: 1.5em; (줄간격 폰트 사이즈에 맞게)
+
+
+ 박스 설정
+
+ margin:위->아래px 오른쪽->왼px 아래->위px 왼쪽->오른px;   ex: {margin :15px 15px 15px 15px;}
+ border:전체px
+ padding:전체px
+
+ex {margin:auto;} 수치값 auto 설정시 가운데 정렬
+
+
+ 한쪽면만 변경시  ex margin-top:100px; 위만100px만큼
+ -top
+ -bottom
+ -right 
+ -left
+
+
+ridge 액자 
+solid 실선
+dashed 점선   
+
+ex p {border :10px ridge red;}
+              수치  선    색 
+
+포지션 레이아웃의 위치 결정법
+
+{position :absolute; ex맨위로 ,fixed ex 지정위치 고정 
+ top:위에서 얼만큼 미는지px;
+ lift:왼쪽에서 얼만큼 미는지mapx;
+ bottom:아래서 위로 얼만큼 미는지px;
+ right:오른쪽에서 왼쪽으로 얼만큼 미는지px;
+
+ z-index:가장위에 표시할꺼 1->2->3->4(젤위); 
+}
+
+
+ex 
+
+ #official-info {
+            background: rgb(230, 230, 230);
+            width: 70%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin: 15px 0px 10px 6px;
+            border: 2px dashed rgb(161, 161, 161)
+
+
+             div>ul>li*2(>ul>li*3)
+             ul>li>ul>li{float:left}
+
+
+
+             
+             li{float:left}:;float:left	
+#four {background:#11d; 
+	width:1200px; height :400px;
+	margin:-16px 15px 15px 0px;
+	border:0px solid red;}

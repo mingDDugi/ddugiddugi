@@ -1,0 +1,46 @@
+#wrap{width:560px; margin:0 auto; background-color:#a6a6a6;padding-top:6px;}
+article{margin-top:1%;}
+/*로고*/
+#logo{width:59%; height:56px; background-color:#f11;margin-top:0px;margin-left:18%;}
+/*사이드바*/
+#sidebar{width:91px; background-color:#a1a; 
+	position:fixed; text-align: center;
+margin-top:5px;}
+dl{padding: 5px;box-sizing: border-box;}
+#sidebar>h2{background-color:#008; font-size:16px;}
+#sidebox{padding :1px;padding-top:0px; box-sizing:border-box;}
+#sidebox>li{background-color: #eee; margin-top:3px; 
+	font-size:15px; }
+	#sidebox li:hover{
+		background-color: #fff;
+		color:#333;
+	}
+	/*배너 */
+#banner-login>h2{background-color:#000; width:59%; height:118px;
+margin-left:18%;}
+#log {background-color:#f01;width :20%;margin-left:78%; padding:1%; box-sizing:border-box;}
+#banner-login h2 {float:left;}
+h3{font-size:25px;}
+/*로그*/
+#log>div>input, ul {margin-top:7px;}
+#log input:nth-child(2) {width:65%; border-right:0;}
+#log input:nth-child(3) {width:25%;margin-left:-6px;}
+#log input:nth-child(4) {width:90%;}
+#log li{float:left; font-size:8px;}
+#log ul{width:100px; height:6px;}
+#log li:nth-child(2){margin-left:10px;}
+/*미니이미지*/
+#miniimg{background-color:#008;width:80%; margin-left:18%;}
+#miniimg div {float:left; width:calc(100% / 4 - 12px); height:100px; background-color:#f11; margin-right:16px;}
+#miniimg div:nth-child(4){margin-right:0;}
+/*이벤트*/
+#event{width:80%; height:74px; background-color:#d6d6; margin-left:18%;}
+/*스토어*/
+#store{width:80%; background-color:#d6d6; margin-left:18%;}
+#store div{float:left; width:41%;height:70px; background-color:#f11; margin:6%;}
+
+#store div:nth-child(2n){margin-left :0; }
+#store div:nth-child(1){margin-bottom:0;}
+
+/*풋터*/
+#low {width:100%; height:150px; background-color:#f11;}
