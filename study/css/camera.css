@@ -1,12 +1,25 @@
 #wrap{width:210px; height:160px; margin:0 auto; background-color:#d7f1ff;}
 /*카메라 시작*/
 
-#camera{width:74px; height:78px;margin:0 auto;background-color:#d7f1ff;transform:translateY(50%)}
+#camera{width:74px; height:78px;margin:0 auto;background-color:#d7f1ff;transform:translateY(50%); position:relative;}
 /*카메라 위에 시작*/
 
-#top{width:100%; height:50%; background-color:#E75647; border-radius:10px 10px 0% 0%;}
-#topw{width:8%; height:15%; background-color:#A6EEAF;
- border-radius:100%; margin:10% 10%;}
+#top{width:100%; height:50%; background-color:#E75647; border-radius:10px 10px 0% 0%; padding:10% 10%;box-sizing:border-box;}
+#topw{width:5px; height:5px; background-color:#A6EEAF;
+ border-radius:100%; }
 /*카메라 위에 끝 아래 시작*/
-#bottom{width:100%; height:50%; background-color:#DB5243;border-radius:0% 0% 10px 10px;}
-/*카메라 아래 끝 */
+#bottom{width:100%; height:50%; background-color:#DB5243;border-radius:0% 0% 10px 10px;  box-sizing:border-box;
+	position:relative; }
+#botw{width:10px; height:5px; background-color:#7E4A45; border-radius:10px 10px; position:absolute;bottom:15%;right:10%; padding:0.7px 0px 0px 5.5px; box-sizing:border-box;}
+#botww{width:3.5px; height:3.5px; background-color:#D5DCDF;
+border-radius:100%;}
+/*카메라 아래 끝 셔텨시작 */
+#mini{width:20px; height:13px;border-radius:0px 0px 2px 2px; border:5px solid #F2AC59 ;box-sizing:border-box; position:absolute;top:-1%; right:10%;}
+
+#minibox{width:15px; height:9px; background-color:#DF9F52;
+border-radius:2px; margin:-3px 0px 0px -2.5px; box-sizing:border-box; padding:1px;}
+#miniboxq{width:100%; height:100%; background-color:#fff;
+border-radius:2px; }
+/*셔터 끝 랜즈 시작 */
+#circle{width:38.5px; height:38.5px; background-color:#fff;
+border-radius:100%; box-sizing:border-box; position:absolute;top:50%; margin-top:calc(-38.5px / 2); right:50%; margin-right:calc(-38.5px / 2);}
