@@ -1,4 +1,4 @@
-#wrap{width:978px; height:1740px; background-color:#E0E0E0; margin:0 auto; box-sizing: border-box;}
+#wrap{width:978px;  background-color:#E0E0E0; margin:0 auto; box-sizing: border-box;}
 header, article, footer{margin-bottom:20px;background-color:#AEABAB}
 /*헤더*/
 header{width:100%; height:150px; ; padding:10px; box-sizing:border-box; }
@@ -24,8 +24,8 @@ header{width:100%; height:150px; ; padding:10px; box-sizing:border-box; }
 #eone div{width:190px; height:50px; margin:13px 0 0 12px;}
 #eone>div:first-child{background-color:#fff;}
 #eone>div:last-child{background-color:#5E5E5E; box-sizing: border-box; padding:1%; }
-#eone>div>div:hover{margin:2% 0 0 4%;}
-#eone>div>div {width:40px; height:40px; background-color:#000; margin:2% 0 0 77%; transition:all 400ms ease;}
+#eone>div>div:hover{transform: scale(4,1.2) translateX(-18px)}
+#eone>div>div {width:40px; height:40px; background-color:#000; margin:2% 0 0 77%; :all 0.4s ease-in-out 0.1s;}
 
 #etwo{width:763px; height:100%; float:left;}
 #etwo>div{height:50px; float:left; background-color:#5E5E5E;margin:2% 0% 0% 1.3%; padding:5px; box-sizing:border-box; }
@@ -34,6 +34,7 @@ header{width:100%; height:150px; ; padding:10px; box-sizing:border-box; }
 #etwo>div:nth-child(3){width:250px;}
 #etwo>div:nth-child(4){width:600px;}
 #etwo>div:nth-child(5){width:125px;}
+
 
 .ea>div{width:40px; height:100%; background-color:#000; float:right;}
 

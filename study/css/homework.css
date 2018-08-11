@@ -85,3 +85,8 @@ html {width :100%;}
 body {width :100%;}
 li{float:left}
 
+footer {width:5%; height:100px; background-color:#d5d5d5;transition:width 1s linear 0.1s;}
+footer div {width:10%; height:90%; background-color:#ff1; float:left; margin:2px;  display:none; transition-timing-function:5s 
+}
+footer:hover {width:500px; }
+footer:hover div {width:18%; display:block; }
