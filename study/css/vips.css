@@ -1,17 +1,37 @@
-#wrap{width:1032px; margin:0 auto;}
-header{width:100%;}
-header >div:nth-child(1){width:280px; height:50px; background-color:#d5d5d5; float:left;}
-header >div:nth-child(2){width:300px; height:50px; background-color:#9D9C9C; float:right;}
-
-#mo{width:100px; height:50px; background-color:#fff; margin-left:10px; float:left;}
-#moo{width:150px; height:25px; background-color:#fff; float:left; margin:20px 10px;}
-#log div{width:60px; height:25px; margin:20px 5px; float:right; background-color:#fff;}
-#mack{width:240px; height:80px; margin:0 auto; background-color:#ff0; border-radius:100px 100px 0 0;}
-#menu{width:100%;height:80px; background-color:#d5d5d5; padding:20px; box-sizing:border-box;}
-#menu ul li ul li{height:40px; background-color:#d5d5; margin-top:10px;}
+#wrap{width:1032px; margin:0 auto;font-family: 'East Sea Dokdo', cursive;}
+/*header 시작*/
+#bg{position:absolute; top:1%; z-index:1;}
+header{width:100%; position:relative; background-image:url(../image/bg_gn.png); background-size:cover;}
+header >div>div:nth-child(1){width:280px; height:100%;  float:left;}
+header >div>div:nth-child(2){width:300px; height:100%;  float:right;}
+header >div{width:100%; height:50px;}
+#mo{width:100px; height:50px;  margin-left:10px; float:left;}
+#moo{width:150px; height:25px;  float:left; margin:20px 10px;}
+#log div{width:60px; height:25px; margin:20px 5px; float:right; }
+#mack{width:230px; height:95px;  border-radius:100px 100px 0 0; position:absolute; bottom:3%; left:50%; transform:translateX(-50%); background-image:url(../image/vips_logo.png);
+ 	background-size:contain; 
+ 	background-repeat:no-repeat;
+  	background-position:center;
+}
+#menu{width:100%;height:80px;  padding:20px; box-sizing:border-box;
+color:#fff; font-size:35px; line-height:50px; text-align: center}
+#menu ul li ul li{height:40px; margin-top:10px;}
 #menu >ul>li:nth-child(-n+4){float:left; margin-left:10px;}
 #menu>ul>li:nth-child(n+4):nth-child(-n+6) {float:right; margin-left:10px;}
 #menu li ul{margin-right:10px; display:none;}
 #menu li:hover ul {display:block;}
-#menu li div{height:40px; background-color:#ff1;}
+#menu li div{height:40px; }
 #menu ul li{width:100px;}
+/*header 끝 article 시작 */
+
+article{width:100%; height:450px; background-color:#9D9C9C; }
+article div{width:320px; height:340px; background-color:#d5d5d5; float:left;}
+article:nth-child(2){background-image:url(../image/main_vips.jpg); background-size:cover;}
+article:nth-child(3){padding:30px 35px 60px 35px; box-sizing:border-box; background-color:#ff9; background-image:url(../image/article_two.gif); background-size:contain;}
+/*article끝 nav 시작 */
+nav{width:100%;height:50px; background-color:#d5d5d5;}
+nav div{width:75px; height:35px; background-color:#fff; float:left;margin:0.7% 1%;}
+
+/*nav 끝 footer 시작*/
+footer{width:100%; height:100px; background-color:#9d9c9c;}
+footer div{width:75px; height:35px; background-color:#fff; float:left;margin:0.7% 1%;}
