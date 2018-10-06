@@ -26,13 +26,19 @@ color:#fff; font-size:35px; line-height:50px; text-align: center}
 #menu ul li{width:100px;}
 
 /*header 끝 article 시작 */
-
-
-
-
-
+article{width:100%; height:900px; background-image:url(../image/bg_contents.gif);background-size:contain;} 
+.nav {width:185px; height:100%;float:left;}
+.nav dt{height:85px; background-image:url(../image/h3_steak.gif);background-size:contain;}
+.nav dd{font-size:40px;margin:10px;}
+.main{float:left; width:calc(100% - 185px);}
+.main>div{float:left;}
+.main>div>h6 {font-family:Arial Black; font-size:60px;width:200px;height:100px; margin:5%;} 
+.main>div>p{font-family:Arial Black; margin-left:3%;}
+.main>div>p:nth-child(2){font-size:20px;color:#5d5;}
+.main>div>p:nth-child(3){font-size:10px;}
+.main>div:nth-child(2){width:55%; height:300px;margin-left:1%;background-image:url(../image/vips_2/bg_gg.png); background-size:contain; }
 /*article끝 nav 시작 */
-nav{width:100%;height:50px; background-color:#d5d5d5; background-image:url(../image/bg_fsite.gif);}
+.navi{width:100%;height:50px; background-color:#d5d5d5; background-image:url(../image/);}
 nav div{width:75px; height:35px; background-color:#fff; float:left;margin:0.7% 1%; background-image:url(../image/news_v1.jpg); background-size:75px 35px;}
 
 
