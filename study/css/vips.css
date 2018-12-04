@@ -29,7 +29,7 @@ color:#fff; font-size:35px; line-height:50px; text-align: center}
 
 article{width:100%; height:450px;}
 iframe{width:100%; height:450px;}
-article>div{width:320px; height:340px; float:left; box-sizing:border-box; padding:25px 15px;}
+article>div{width:320px; height:340px; float:left; box-sizing:border-box; padding:25px 15px; overflow:scroll;}
 article:nth-child(3){padding:30px 35px 60px 35px; box-sizing:border-box; background-image:url(../image/article_two.gif); background-size:contain;}
 
 #sns>dt{background-image:url(../image/sns.png); height:21px; width:166px;}
@@ -43,18 +43,6 @@ h3 div:nth-child(1){background-image:url(../image/vips_news.png);width:95px; hei
 h3 div:nth-child(2){background-image:url(../image/btn_more.png);width:37px; height:12px; float:right;}
 
 /*div2끝 div3 시작*/
-.event dt{background-image:url(../image/tit_enjoy.png);width:96px; height:60px; float:left;}
-.event dd:nth-child(2){background-image:url(../image/bg_enjoy.png) ;height:100px; width:152px; float:right;}
-.event dd:nth-child(3){background-image:url(../image/txt_enjoy.png);float:left; height:37px; width:134px; margin-top:10px;}
-.event div{width:279px; height:58px;}
-.event p {background-image:url(../image/vipscopon.gif); height:46px;
-    width:279px;}
-.event h3{background-image:url(../image/h3_quick.png); width:57px; height:31px; margin:20px 10px; float:left;}
-.event li{height:50px; width:42px; margin:15px 5px; float:left;}
-.event li:nth-child(1){background-image:url(../image/quickico01.png);}
-.event li:nth-child(2){background-image:url(../image/quickico02.png ); width:33px;}
-.event li:nth-child(3){background-image:url(../image/quickico03.png);}
-.event li:nth-child(4){background-image:url(../image/quickico04.png);}
 
 /*article끝 nav 시작 */
 nav{width:100%;height:50px; background-color:#d5d5d5; background-image:url(../image/bg_fsite.gif);}
