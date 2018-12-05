@@ -21,7 +21,7 @@ color:#fff; font-size:35px; line-height:50px; text-align: center}
 #menu >ul>li:nth-child(-n+4){float:left; margin-left:10px;}
 #menu>ul>li:nth-child(n+4):nth-child(-n+6) {float:right; margin-left:10px;}
 #menu li ul{margin-right:10px; display:none;}
-#menu li:hover ul {display:block;}
+#menu li:hover ul {display:block; position:absolute;}
 #menu li div{height:40px; }
 #menu ul li{width:100px;}
 

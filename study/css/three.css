@@ -1,6 +1,8 @@
 #big {margin-left:100px;}
 #small {margin:-4px 150px 150px 100px;}
 #pot { border :100px ridge red; padding :50px;
-
-
 }
+
+a {opacity:1;}
+
+opacity 투명하게 만듬 0.1~1.0 까지 
